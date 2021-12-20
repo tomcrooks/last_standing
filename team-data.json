@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Manchester United",
+        "abbreviation": "MNU",
+        "image": "images/teams/mnu.png",
+        "opponent": "Leicester City"
+    },
+    {
+        "id": 2,
+        "name": "Tottenham Hotspur",
+        "abbreviation": "TOT",
+        "image": "images/teams/tot.png",
+        "opponent": "Liverpool"
+    },
+    {
+        "id": 3,
+        "name": "Leicester City",
+        "abbreviation": "LEI",
+        "image": "images/teams/lei.png",
+        "opponent": "Manchester United"
+    },
+    {
+        "id": 4,
+        "name": "Chelsea",
+        "abbreviation": "CHE",
+        "image": "images/teams/che.png",
+        "opponent": "Arsenal"
+    },
+    {
+        "id": 5,
+        "name": "Arsenal",
+        "abbreviation": "ARS",
+        "image": "images/teams/ars.png",
+        "opponent": "Chelsea"
+    },
+    {
+        "id": 6,
+        "name": "Liverpool",
+        "abbreviation": "LIV",
+        "image": "images/teams/liv.png",
+        "opponent": "Tottenham Hotspur"
+    }
+]

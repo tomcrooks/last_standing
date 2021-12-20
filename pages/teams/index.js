@@ -1,25 +1,18 @@
 import Link from "next/link"
+import TeamData from "../../team-data.json"
+import TeamList from "../../components/teams/team-list"
 
 function teamList() {
-    const teams = [
-        { name: "Manchester United", abbr: "MNU" },
-        { name: "Tottenham Hotspur", abbr: "TOT" },
-        { name: "Leicester City", abbr: "LEI" },
-        { name: "Chelsea", abbr: "CHE" },
-        { name: "Arsenal", abbr: "ARS" },
-        { name: "Burnley", abbr: "BUR" },
-    ]
 
     return (
         <div>
             <h1>List of teams</h1>
-            <ul>
-                {teams.map(team => (
+            <TeamList teams={TeamData} />
+            {/* {TeamData.map(team => (
                     <li>
                         <Link href={`/teams/${team.name}`}>{team.name}</Link>
                     </li>
-                ))}
-            </ul>
+                ))} */}
         </div>
     )
 }
